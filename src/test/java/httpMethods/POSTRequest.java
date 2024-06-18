@@ -1,5 +1,6 @@
 package httpMethods;
 
+import org.testng.Assert;
 /*
 * given()-prerequisite
 * ------------------------------
@@ -55,4 +56,47 @@ public class POSTRequest {
 	  
 	  
   }
+  
+  @Test
+  public void post_POJO()
+  {
+	  
+	  //payload
+	  PojoData data=new PojoData();
+	  data.setName("Sarang");
+	  data.setJob("QA");
+	  
+	  
+	  given()
+	  .contentType("application/json")
+	  .body(data)
+
+	  .when().post("https://reqres.in/api/users")
+	  .then()
+	  .statusCode(201)
+	  .body("job",equalTo("QA"))
+	  .log().body();
+	  
+	  System.out.println(data.getName());
+	  Assert.assertTrue(data.getName().equals("Sarang"),"Assertion Fail:Name is not maching");
+	  System.out.println("Assertion pass: Name is matching");
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }

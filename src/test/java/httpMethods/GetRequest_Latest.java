@@ -1,6 +1,10 @@
 package httpMethods;
 
 import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
 
 /*
  * given()-prerequisite
@@ -22,9 +26,6 @@ hasItems() -> Check all elements are in a collection
 contains() -> Check all elements are in a collection and in a strict order
 
  */
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
 
 public class GetRequest_Latest 
 {
