@@ -72,7 +72,7 @@ public class GetRequest_Latest
 	  //partial id
 	 // .body("data.id",contains(7,10,12))//fail
 	  //order
-	  .body("data.id",contains(10,9,7,11,12,8))
+	  .body("data.id",contains(7,8,9,10,11,12))
 	  .log().body();
 	  
 	  
