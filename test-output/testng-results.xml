@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T22:23:54 IST" name="Default suite" finished-at="2024-06-24T22:24:24 IST" duration-ms="29980">
+  <suite started-at="2024-06-25T22:16:53 IST" name="Default suite" finished-at="2024-06-25T22:17:09 IST" duration-ms="15855">
     <groups>
     </groups>
-    <test started-at="2024-06-24T22:23:54 IST" name="Default test" finished-at="2024-06-24T22:24:24 IST" duration-ms="29980">
-      <class name="mobileElementGestures.LocatorsDemo">
-        <test-method signature="elementLocators()[pri:0, instance:mobileElementGestures.LocatorsDemo@5acf93bb]" started-at="2024-06-24T22:23:54 IST" name="elementLocators" finished-at="2024-06-24T22:24:24 IST" duration-ms="29906" status="PASS">
+    <test started-at="2024-06-25T22:16:53 IST" name="Default test" finished-at="2024-06-25T22:17:09 IST" duration-ms="15855">
+      <class name="mobileScenarios.AlertHandling">
+        <test-method signature="alertTest()[pri:0, instance:mobileScenarios.AlertHandling@1a18644]" started-at="2024-06-25T22:16:53 IST" name="alertTest" finished-at="2024-06-25T22:17:09 IST" duration-ms="15777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elementLocators -->
-      </class> <!-- mobileElementGestures.LocatorsDemo -->
+        </test-method> <!-- alertTest -->
+      </class> <!-- mobileScenarios.AlertHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
