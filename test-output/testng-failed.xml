@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="httpMethods.GetRequest_Latest">
+      <class name="scenario1.Scenario1DataDriven">
         <methods>
-          <include name="listOfUsers"/>
+          <include name="testcase" invocation-numbers="1"/>
         </methods>
-      </class> <!-- httpMethods.GetRequest_Latest -->
+      </class> <!-- scenario1.Scenario1DataDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

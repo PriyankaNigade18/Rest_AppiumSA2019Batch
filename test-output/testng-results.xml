@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T14:43:29 IST" name="Default suite" finished-at="2024-06-20T14:43:34 IST" duration-ms="4698">
+  <suite started-at="2024-07-09T22:17:33 IST" name="Default suite" finished-at="2024-07-09T22:17:40 IST" duration-ms="7503">
     <groups>
     </groups>
-    <test started-at="2024-06-20T14:43:29 IST" name="Default test" finished-at="2024-06-20T14:43:34 IST" duration-ms="4698">
-      <class name="httpMethods.SameUserCreate_Update_Delete">
-        <test-method signature="createNewUser()[pri:1, instance:httpMethods.SameUserCreate_Update_Delete@6283d8b8]" started-at="2024-06-20T14:43:29 IST" name="createNewUser" finished-at="2024-06-20T14:43:33 IST" duration-ms="3709" status="PASS">
+    <test started-at="2024-07-09T22:17:33 IST" name="Default test" finished-at="2024-07-09T22:17:40 IST" duration-ms="7503">
+      <class name="scenario2_dropdown.RedBusDropdown">
+        <test-method signature="tesdropdown()[pri:0, instance:scenario2_dropdown.RedBusDropdown@27462a88]" started-at="2024-07-09T22:17:33 IST" name="tesdropdown" finished-at="2024-07-09T22:17:40 IST" duration-ms="7435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewUser -->
-        <test-method signature="updateSameUser()[pri:2, instance:httpMethods.SameUserCreate_Update_Delete@6283d8b8]" started-at="2024-06-20T14:43:33 IST" name="updateSameUser" finished-at="2024-06-20T14:43:33 IST" depends-on-methods="httpMethods.SameUserCreate_Update_Delete.createNewUser" duration-ms="520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateSameUser -->
-        <test-method signature="deleteSameUser()[pri:3, instance:httpMethods.SameUserCreate_Update_Delete@6283d8b8]" started-at="2024-06-20T14:43:33 IST" name="deleteSameUser" finished-at="2024-06-20T14:43:34 IST" depends-on-methods="httpMethods.SameUserCreate_Update_Delete.updateSameUser" duration-ms="401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteSameUser -->
-      </class> <!-- httpMethods.SameUserCreate_Update_Delete -->
+        </test-method> <!-- tesdropdown -->
+      </class> <!-- scenario2_dropdown.RedBusDropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
